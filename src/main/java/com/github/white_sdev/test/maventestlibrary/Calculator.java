@@ -108,17 +108,16 @@ package com.github.white_sdev.test.maventestlibrary;
 /**
  * Basic Calculator Operations.
  *
- * @author Obed Vazquez
- * @mail obed.vazquez@gmail.com
+ * @author <a href="mailto:obed.vazquez@gmail.com">Obed Vazquez</a>
  * @since 2019-01-27
+ * @version <a href="mailto:obed.vazquez@gmail.com">Obed Vazquez</a> - 2019-01-28
  */
 public class Calculator {
 
     /**
      * Adds any number of {@link Number}s. This is just a test functionality.
      *
-     * @author Obed Vazquez
-     * @mail obed.vazquez@gmail.com
+     * @author <a href="mailto:obed.vazquez@gmail.com">Obed Vazquez</a>
      * @since 2019-01-27
      * @param numbers Numbers to be added.
      * @return The addition of the provided numbs
@@ -134,6 +133,13 @@ public class Calculator {
 	return addition;
     }
 
+    /**
+     * Auxiliary method of {@link #add(Number... numbers)}. This is just a test functionality.
+     *
+     * @author <a href="mailto:obed.vazquez@gmail.com">Obed Vazquez</a>
+     * @since 2019-01-27
+     * @return The addition of the provided numbs
+     */
     private <T extends Number> Number add(Double newA, T b) {
 	if (b instanceof Double) {
 	    Double newB = b.doubleValue();
@@ -149,7 +155,14 @@ public class Calculator {
 	    return newA + newB;
 	}
     }
-
+    
+    /**
+     * Auxiliary method of {@link #add(Number... numbers)}. This is just a test functionality.
+     *
+     * @author <a href="mailto:obed.vazquez@gmail.com">Obed Vazquez</a>
+     * @since 2019-01-27
+     * @return The addition of the provided numbs
+     */
     private <T extends Number> Number add(Float newA, T b) {
 	if (b instanceof Double) {
 	    Double newB = b.doubleValue();
@@ -166,6 +179,13 @@ public class Calculator {
 	}
     }
 
+    /**
+     * Auxiliary method of {@link #add(Number... numbers)}. This is just a test functionality.
+     *
+     * @author <a href="mailto:obed.vazquez@gmail.com">Obed Vazquez</a>
+     * @since 2019-01-27
+     * @return The addition of the provided numbs
+     */
     private <T extends Number> Number add(Integer newA, T b) {
 	if (b instanceof Double) {
 	    Double newB = b.doubleValue();
@@ -182,6 +202,13 @@ public class Calculator {
 	}
     }
 
+    /**
+     * Auxiliary method of {@link #add(Number... numbers)}. This is just a test functionality.
+     *
+     * @author <a href="mailto:obed.vazquez@gmail.com">Obed Vazquez</a>
+     * @since 2019-01-27
+     * @return The addition of the provided numbs
+     */
     private <T extends Number> Number add(Long newA, T b) {
 	if (b instanceof Double) {
 	    Double newB = b.doubleValue();

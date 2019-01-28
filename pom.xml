@@ -27,8 +27,8 @@
     </developers>
     
     <scm>
-	<connection>scm:git:git://github.com/WhiteKing21/maventestlibrary.git</connection>
-	<developerConnection>scm:git:ssh://github.com:WhiteKing21/maventestlibrary.git</developerConnection>
+	<connection>scm:git:git://github.com/white-sdev/maventestlibrary.git</connection>
+	<developerConnection>scm:git:ssh://github.com:white-sdev/maventestlibrary.git</developerConnection>
 	<url>http://github.com/simpligility/ossrh-demo/tree/master</url>
     </scm>
 

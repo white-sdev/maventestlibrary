@@ -105,26 +105,28 @@
  */
 package com.github.white_sdev.test.maventestlibrary;
 
-import com.github.white_sdev.test.maventestlibrary.Calculator;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Tests Calculator Operations. 
- * @author Obed Vazquez
- * @mail obed.vazquez@gmail.com
+ * @author <a href="mailto:obed.vazquez@gmail.com">Obed Vazquez</a>
+ * @since 2019-01-27
+ * @modifies <a href="mailto:obed.vazquez@gmail.com">Obed Vazquez</a>
+ * @version 2019-01-28
  */
 public class CalculatorTest {
     
     /**
      * Calculator main instance. The instance of the class to test.
+     * @author <a href="mailto:obed.vazquez@gmail.com">Obed Vazquez</a>
+     * @since 2019-01-27
      */
     Calculator instance=new Calculator();
     
     /**
      * Test of add method, of class Calculator.
-     * @author Obed Vazquez
-     * @mail obed.vazquez@gmail.com
+     * @author <a href="mailto:obed.vazquez@gmail.com">Obed Vazquez</a>
      * @since 2019-01-27
      */
     @Test

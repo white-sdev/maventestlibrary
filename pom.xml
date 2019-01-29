@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.white-sdev</groupId>
     <artifactId>maventestlibrary</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Testing the Maven Central Repository</description>
     <url>https://github.com/white-sdev/maventestlibrary</url>
